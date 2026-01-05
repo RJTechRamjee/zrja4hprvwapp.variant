@@ -62,31 +62,12 @@
       "content": {
         "card": {
           "customer.NewTableCard_01": {
-            "template": "sap.ovp.cards.list",
-            "model": "customer.ZRJ_UI_PRVW_EXTEN_O2",
-            "settings": {
-              "title": "Info Records Overview",
-              "entitySet": "InfoRecords",
-              "listType": "extended",
-              "annotationPath": "com.sap.vocabularies.UI.v1.LineItem#IRQualColumns",
-              "sortBy": "InfoRecord",
-              "sortOrder": "descending"
-            }
-          }
-        }
-      }
-    },
-    {
-      "changeType": "appdescr_ovp_addNewCard",
-      "content": {
-        "card": {
-          "customer.NewTableCard_02": {
             "template": "sap.ovp.cards.table",
             "model": "customer.ZRJ_UI_PRVW_EXTEN_O2",
             "settings": {
-              "title": "Purchase Orders Overview",
-              "entitySet": "PurchaseOrders",
-              "annotationPath": "com.sap.vocabularies.UI.v1.LineItem",
+              "title": "Info Records Overview",
+              "entitySet": "ZRJ_I_PRVW_InfoRecords",
+              "annotationPath": "com.sap.vocabularies.UI.v1.LineItem#IRQualColumns",
               "presentationAnnotationPath": "com.sap.vocabularies.UI.v1.PresentationVariant#PV_Standard",
               "identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification"
             }
