@@ -58,25 +58,6 @@
       }
     },
     {
-      "changeType": "appdescr_ui5_addNewModel",
-      "content": {
-        "dataSource": {
-          "customer.ZRJ_UI_PRVW_EXTEN_O4": {
-            "uri": "/sap/opu/odata4/sap/zrj_ui_prvw_exten_o4/srvd/sap/zrj_ui_prvw_exten/0001/",
-            "type": "OData",
-            "settings": {
-              "odataVersion": "4.0"
-            }
-          }
-        },
-        "model": {
-          "customer.ZRJ_UI_PRVW_EXTEN_O4": {
-            "dataSource": "customer.ZRJ_UI_PRVW_EXTEN_O4"
-          }
-        }
-      }
-    },
-    {
       "changeType": "appdescr_ovp_addNewCard",
       "content": {
         "card": {
@@ -90,6 +71,24 @@
               "annotationPath": "com.sap.vocabularies.UI.v1.LineItem#IRQualColumns",
               "sortBy": "InfoRecord",
               "sortOrder": "descending"
+            }
+          }
+        }
+      }
+    },
+    {
+      "changeType": "appdescr_ovp_addNewCard",
+      "content": {
+        "card": {
+          "customer.NewTableCard_02": {
+            "template": "sap.ovp.cards.table",
+            "model": "customer.ZRJ_UI_PRVW_EXTEN_O2",
+            "settings": {
+              "title": "Purchase Orders Overview",
+              "entitySet": "PurchaseOrders",
+              "annotationPath": "com.sap.vocabularies.UI.v1.LineItem",
+              "presentationAnnotationPath": "com.sap.vocabularies.UI.v1.PresentationVariant#PV_Standard",
+              "identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification"
             }
           }
         }
