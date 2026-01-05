@@ -47,10 +47,10 @@
             "type": "OData",
             "settings": {
               "odataVersion": "2.0",
-              "annotations": ["ZRJ_UI_PRVW_EXTEN_O2_VAN"]
+              "annotations": ["customer.ZRJ_UI_PRVW_EXTEN_O2_VAN"]
             }
           },
-          "ZRJ_UI_PRVW_EXTEN_O2_VAN": {
+          "customer.ZRJ_UI_PRVW_EXTEN_O2_VAN": {
             "uri": "/sap/opu/odata/IWFND/CATALOGSERVICE;v=2/Annotations(TechnicalName='ZRJ_UI_PRVW_EXTEN_O2_VAN',Version='0001')/$value/",
             "type": "ODataAnnotation",
             "settings": {}
