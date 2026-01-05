@@ -66,7 +66,7 @@
             "model": "customer.ZRJ_UI_PRVW_EXTEN_O2",
             "settings": {
               "title": "Info Records Overview",
-              "entitySet": "ZRJ_I_PRVW_InfoRecords",
+              "entitySet": "InfoRecords",
               "annotationPath": "com.sap.vocabularies.UI.v1.LineItem#IRQualColumns",
               "presentationAnnotationPath": "com.sap.vocabularies.UI.v1.PresentationVariant#PV_Standard",
               "identificationAnnotationPath": "com.sap.vocabularies.UI.v1.Identification"
